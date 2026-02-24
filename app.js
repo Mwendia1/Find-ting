@@ -9,7 +9,7 @@
 // API Configuration
 const API_URL = window.location.hostname === 'localhost' 
     ? 'http://localhost:5000/api' 
-    : 'https://YOUR-BACKEND-URL.onrender.com/api'; // Replace with your actual backend URL
+    : 'https://find-ting-backend.onrender.com/api';
 
 // Currency Configuration
 const currency = {
