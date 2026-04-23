@@ -7,7 +7,9 @@
 // ============================================
 
 // API Configuration
-const API_URL = 'https://find-ting.onrender.com';
+const API_URL = window.location.hostname === 'localhost' || window.location.protocol === 'file:'
+    ? 'http://localhost:5000'
+    : 'https://find-ting.onrender.com';
 
 // Currency Configuration
 const currency = {
